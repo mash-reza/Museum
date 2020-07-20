@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.view.View2Controller">
+   <children>
+      <TableView fx:id="tableView" prefHeight="690.0" prefWidth="1200.0">
+         <columns>
+            <TableColumn fx:id="artObjectTitle" prefWidth="109.60000228881836" text="Art Object Title" />
+            <TableColumn fx:id="borrowedDateToReturn" prefWidth="59.200042724609375" text="Date To Return" />
+            <TableColumn fx:id="borrowedDateBorrowed" prefWidth="59.200042724609375" text="Date To Return" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>

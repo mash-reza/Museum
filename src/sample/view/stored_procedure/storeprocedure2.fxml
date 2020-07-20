@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.stored_procedure.Store2Controller">
+    <children>
+        <TableView fx:id="tableView" prefHeight="690.0" prefWidth="1200.0">
+            <columns>
+                <TableColumn fx:id="title" prefWidth="109.60000228881836" text="Exhibition Title" />
+                <TableColumn fx:id="start" prefWidth="59.200042724609375" text="Start Date" />
+                <TableColumn fx:id="end" prefWidth="87.99995422363281" text="End Date" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>

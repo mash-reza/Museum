@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.view.View1Controller">
+   <children>
+      <TableView fx:id="tableView" prefHeight="690.0" prefWidth="1200.0">
+        <columns>
+          <TableColumn fx:id="artObjectTitle" prefWidth="109.60000228881836" text="Art Object Title" />
+          <TableColumn fx:id="artObjectYear" prefWidth="59.200042724609375" text="Year" />
+            <TableColumn fx:id="artObjectDescription" prefWidth="87.99995422363281" text="Description" />
+            <TableColumn fx:id="artObjectCountry" prefWidth="108.79998779296875" text="Country" />
+            <TableColumn fx:id="artistName" prefWidth="108.0" text="Artist Name" />
+            <TableColumn fx:id="artistBorn" prefWidth="115.20001220703125" text="Artist Birth" />
+            <TableColumn fx:id="artistDied" prefWidth="96.00006103515625" text="Artist Death" />
+            <TableColumn fx:id="artistEpoch" prefWidth="128.79998779296875" text="Epoch" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

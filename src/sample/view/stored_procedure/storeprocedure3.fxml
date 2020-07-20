@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.stored_procedure.Store3Controller">
+    <children>
+        <TableView fx:id="tableView" prefHeight="690.0" prefWidth="1200.0">
+            <columns>
+                <TableColumn fx:id="title" prefWidth="109.60000228881836" text="Art Object Title" />
+                <TableColumn fx:id="year" prefWidth="59.200042724609375" text="Year" />
+                <TableColumn fx:id="description" prefWidth="87.99995422363281" text="Description" />
+                <TableColumn fx:id="country" prefWidth="108.79998779296875" text="Country" />
+                <TableColumn fx:id="epoch" prefWidth="108.0" text="Epoch" />
+                <TableColumn fx:id="style" prefWidth="115.20001220703125" text="Style" />
+                <TableColumn fx:id="category" prefWidth="96.00006103515625" text="Category" />
+                <TableColumn fx:id="type" prefWidth="128.79998779296875" text="Type" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>
